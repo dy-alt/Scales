@@ -6,7 +6,7 @@ void draw() {
   
   background(255,255,255);
   for (int x = -30; x<500; x= x+30)
-  for (int y = -20; y<500; y= y+20)
+  for (int y = -40; y<500; y= y+20)
   scale(x, y);
   //your code here
 }
