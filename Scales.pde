@@ -12,7 +12,7 @@ void draw() {
 }
 void scale(int x, int y) {
  
-  fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
+  fill((int)(Math.random()*256+100),(int)(Math.random()*256+100),(int)(Math.random()*256+100));
   
   beginShape(); //1st set of hearts
   vertex(x+10, y+30);
